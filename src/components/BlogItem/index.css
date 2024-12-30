@@ -1,0 +1,41 @@
+/* Container for the blog item */
+.blog-item-container {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+/* Left section for title and description */
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1; /* Allows this section to take up available space */
+}
+
+/* Title styling */
+.blog-item-heading {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #12022f;
+  padding-bottom: 30px;
+}
+
+/* Description styling */
+.blog-item-description {
+  font-size: 1rem;
+  color: #616e7c;
+  margin-top: 8px;
+}
+
+/* Right section for published date */
+.blog-item-date {
+  text-align: right;
+  white-space: nowrap; /* Prevents text wrapping */
+  margin-left: 20px;
+  color: #616e7c;
+  font-size: 0.9rem;
+}
